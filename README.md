@@ -18,12 +18,17 @@ annoying problems quickly.
   into a new 'images' folder. Perfect for organizing messy project folders.
 
 ## 💡 How to use (change img_extraction.py to desired script) 
-Clone the repo and run any script directly:
-$ git clone https://github.com/LabheshGupta/Usefull-python-Scripts.git
-$ cd Usefull-python-Scripts
-$ python ScriptsCollection/img_extraction.py
+Clone the repo and run any script directly:<br>
+
+```git clone https://github.com/LabheshGupta/Usefull-python-Scripts.git``` <br>
+```cd Usefull-python-Scripts```<br>
+```python ScriptsCollection/img_extraction.py```
 
 OR 
 
 download the script and open the folder in terminal and run the following code:
-``` python <name>.py```
+```python
+python <name>.py
+```
+
+(can someone help me make a decent readme 😭)
