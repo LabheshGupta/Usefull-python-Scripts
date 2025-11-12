@@ -22,7 +22,7 @@ def move_images_to_folder(root_dir):
                 src_path = os.path.join(dirpath, file)
                 dest_path = os.path.join(images_dir, file)
 
-                # Prevent overwriting if file already exists
+                # Prevent overwriting if file already exist
                 if os.path.exists(dest_path):
                     base, ext = os.path.splitext(file)
                     counter = 1
@@ -40,3 +40,4 @@ def move_images_to_folder(root_dir):
 if __name__ == "__main__":
     current_dir = os.getcwd()
     move_images_to_folder(current_dir)
+
